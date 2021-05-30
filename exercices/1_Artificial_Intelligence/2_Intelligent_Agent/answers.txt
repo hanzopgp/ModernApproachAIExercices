@@ -2,51 +2,63 @@ Link : https://aimacode.github.io/aima-exercises/agents-exercises/
 
 1)Suppose that the performance measure is concerned with just the first T time steps of the environment and ignores everything thereafter. Show that a rational agent’s action may depend not just on the state of the environment but also on the time step it has reached.
 
+For the example of the vacuum-cleaner, we want the robot to remember it cleaned one case few seconds ago or it will keep looking for dirty place in loop.
 
 2)Let us examine the rationality of various vacuum-cleaner agent functions.
 1. Show that the simple vacuum-cleaner agent function described in Figure 2.3 is indeed rational under the assumptions listed on page 
 2. Describe a rational agent function for the case in which each movement costs one point. Does the corresponding agent program require internal state?
 3. Discuss possible agent designs for the cases in which clean squares can become dirty and the geography of the environment is unknown. Does it make sense for the agent to learn from its experience in these cases? If so, what should it learn? If not, why not?
 
+1. The agent described by figure 2.3 is rational because it does the right thing, its performance is maximal. It is not the optimal solution thought because it never stops cleaning.
+2. A simple way to do that is to add a timer, after cleaning the room it waits 1 hour before checking the room again.
+3. It makes sense because it could build a representation of its environment and therefore it could find the optimal path to visit the whole room. It could also figure out the rate at which the floor gets dirty.
 
 3)Write an essay on the relationship between evolution and one or more of autonomy, intelligence, and learning.
 
+Evolution used to be about random mutations, now it is a lot about learning and sharing informations. Intelligence is the capacity to adapt, we need to learn if we want to adapt and thus, evoluate. We sometimes learn by imitating, but we mostly learn autonomously since we are born. Those terms are closely linked together.
 
 4)For each of the following assertions, say whether it is true or false and support your answer with examples or counterexamples where appropriate.
-1. An agent that senses only partial information about the state cannot be perfectly rational.
-2. There exist task environments in which no pure reflex agent can behave rationally.
-3. There exists a task environment in which every agent is rational.
-4. The input to an agent program is the same as the input to the agent function.
-5. Every agent function is implementable by some program/machine combination.
-6. Suppose an agent selects its action uniformly at random from the set of possible actions. There exists a deterministic task environment in which this agent is rational.
-7. It is possible for a given agent to be perfectly rational in two distinct task environments.
-8. Every agent is rational in an unobservable environment.
-9. A perfectly rational poker-playing agent never loses.
 
+1. An agent that senses only partial information about the state cannot be perfectly rational. FALSE
+2. There exist task environments in which no pure reflex agent can behave rationally. TRUE
+3. There exists a task environment in which every agent is rational. TRUE
+4. The input to an agent program is the same as the input to the agent function. FALSE
+5. Every agent function is implementable by some program/machine combination. FALSE
+6. Suppose an agent selects its action uniformly at random from the set of possible actions. There exists a deterministic task environment in which this agent is rational. TRUE
+7. It is possible for a given agent to be perfectly rational in two distinct task environments. TRUE
+8. Every agent is rational in an unobservable environment. FALSE
+9. A perfectly rational poker-playing agent never loses. FALSE
 
 5)For each of the following activities, give a PEAS description of the task environment and characterize it in terms of the properties listed in Section 
+
 - Playing soccer.
-- Exploring the subsurface oceans of Titan.
+Perf : max number of goals, min number of goals of enemy team, min number of faults...
+Env : soccer field, ally players, enemy players, referee...
+Actuators : agent's body
+Sensors : visual sensors, speedometer...
 - Shopping for used AI books on the Internet.
-- Playing a tennis match.
-- Practicing tennis against a wall.
-- Performing a high jump.
-- Knitting a sweater.
+Perf : max books quality, min price...
+Env : internet
+Actuators : ability to buy books
+Sensors : website's content
 - Bidding on an item at an auction.
-
-
-6)For each of the following activities, give a PEAS description of the task environment and characterize it in terms of the properties listed in Section 
-- Performing a gymnastics floor routine.
-- Exploring the subsurface oceans of Titan.
-- Playing soccer.
-- Shopping for used AI books on the Internet.
-- Practicing tennis against a wall.
-- Performing a high jump.
-- Bidding on an item at an auction.
-
+Perf : min price, max items, max items quality...
+Env : bidders
+Actuators : ability to buy items
+Sensors : price, visual sensors...
 
 7)Define in your own words the following terms: agent, agent function, agent program, rationality, autonomy, reflex agent, model-based agent, goal-based agent, utility-based agent, learning agent.
 
+Agent :
+Agent function :
+Agent program :
+Rationality :
+Autonomy :
+Reflex agent :
+Model-based agent :
+Goal-based agent :
+Utility-based agent :
+Learning agent :
 
 8)This exercise explores the differences between agent functions and agent programs.
 1. Can there be more than one agent program that implements a given agent function? Give an example, or show why one is not possible.
