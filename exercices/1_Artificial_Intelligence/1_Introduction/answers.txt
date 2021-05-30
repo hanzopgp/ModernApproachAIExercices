@@ -1,22 +1,137 @@
 Link : https://aimacode.github.io/aima-exercises/intro-exercises/
 
-1)
-2)
-3)
-4)
-5)
-6)
-7)
-8)
-9)
-10)
-11)
-12)
-13)
-14)
-15)
-16)
-17)
-18)
-19)
-20)
+1)Define in your own words: (a) intelligence, (b) artificial intelligence, (c) agent, (d) rationality, (e) logical reasoning.
+
+Intelligence : capicity to adapt
+Artificial Intelligence : techniques which purpose is to imitate human intelligence
+Agent : an agent interact with an environment depending his perception of it
+Rationality : a rational agent tries to do the right thing by maximizing its performance
+Logical reasoning : using logical premises to decide what to do
+
+2)Read Turing’s original paper on AI Turing:1950. In the paper, he discusses several objections to his proposed enterprise and his test for intelligence. Which objections still carry weight? Are his refutations valid? Can you think of new objections arising from developments since he wrote the paper? In the paper, he predicts that, by the year 2000, a computer will have a 30% chance of passing a five-minute Turing Test with an unskilled interrogator. What chance do you think a computer would have today? In another 50 years?
+
+Turing was really ahead of his time. Some of the 9 arguments still carry weight. For example, we still don't know if it's possible to mimic the behaviour of the nervous system with a discrete-state machine. Indeed, a tiny error in the nervous system can lead to huge problems. We also don't know enough about the brain and consciousness, so we have no idea if it is possible to create human-like AI. If a computer passes the Turing test it only proves that it showed showed a simulation of thinking.
+Today some AI such as GPT-3, BERT... can pass the Turing test easily. I'd say a computer today has like 50% chance of passing the Turing test, 100% in 50 years seems reasonable.
+
+3)Every year the Loebner Prize is awarded to the program that comes closest to passing a version of the Turing Test. Research and report on the latest winner of the Loebner prize. What techniques does it use? How does it advance the state of the art in AI?
+
+The winner of Loebner Prize for 5 consecutive years is Mistuku. This AI is an hand-coded open domain chatbot which is not using machine learning. The AI with the best scores are based on deep learning and often transformer architecture.
+
+4)Are reflex actions (such as flinching from a hot stove) rational? Are they intelligent?
+
+Those actions are encoded in our DNA, they help us survive until we learn enough to survive by ourself. It is like giving some rules to an agent before it starts learning. The learning time is faster thanks to that.
+
+5)There are well-known classes of problems that are intractably difficult for computers, and other classes that are provably undecidable. Does this mean that AI is impossible?
+
+The P=NP problem hasn't been solved yet. We currently don't know if some problems are really intractably difficult or if we didn't find the answer yet. This doesn't mean AI is impossible.
+
+6)Suppose we extend Evans’s SYSTEM program so that it can score 200 on a standard IQ test. Would we then have a program more intelligent than a human? Explain.
+
+Our intelligence is way more than just our IQ. Our IQ is about logics and memory, which isn't enough to calculte human intelligence. Nowadays, some AI can ace the IQ tests, but they will probably not be able to do anything else than passing IQ tests.
+
+7)The neural structure of the sea slug Aplysis has been widely studied (first by Nobel Laureate Eric Kandel) because it has only about 20,000 neurons, most of them large and easily manipulated. Assuming that the cycle time for an Aplysis neuron is roughly the same as for a human neuron, how does the computational power, in terms of memory updates per second, compare with the high-end computer described in (Figure 1.3)?
+
+Cycle time for human brain : 10^-3 s
+N neurons for human brain : 10^11 neurons
+N synapses for human brain : 10^11 * 1000 = 10^14 synapses
+Computational power for human brain : 10^14/10^-3 = 10^17 operations/sec
+
+Cycle time for sea slug : roughly human brain cycle time
+N neurons for sea slug : 2*10^4 neurons
+N synapses for sea slug : 2*10^4 * 1000 = 2*10^7 synapses
+Computation power for sea slug : 2*10^7/10^-3 = 2*10^10 operations/sec
+
+2*10^10 operations/sec for the sea slug. It is roughly twice a personal computer computational power.
+
+8)How could introspection—reporting on one’s inner thoughts—be inaccurate? Could I be wrong about what I’m thinking? Discuss.
+
+There is so much psychological biases, social biases etc... These biases can really make us think about thoughts which are wrong. Sometimes we are not subjective enough and we give a plan to an AI, then we realise we didn't think about some details. It is really hard to be fully accurate while doing introspections.
+
+9)To what extent are the following computer systems instances of artificial intelligence:
+- Supermarket bar code scanners.
+- Web search engines.
+- Voice-activated telephone menus.
+- Internet routing algorithms that respond dynamically to the state of the network.
+
+- It makes decision depending the sensors. The scanner can also try to reconstruct hidden part of the bar code.
+- It takes into account the recommandations by users, country etc...
+- It needs to recognize any kind of voice, which is a difficult problem.
+- It needs to learn and adapt.
+
+10)To what extent are the following computer systems instances of artificial intelligence:
+- Supermarket bar code scanners.
+- Voice-activated telephone menus.
+- Spelling and grammar correction features in Microsoft Word.
+- Internet routing algorithms that respond dynamically to the state of the network.
+
+- Spelling and grammar correction features needs natural language processing which is part of AI.
+
+11)Many of the computational models of cognitive activities that have been proposed involve quite complex mathematical operations, such as convolving an image with a Gaussian or finding a minimum of the entropy function. Most humans (and certainly all animals) never learn this kind of mathematics at all, almost no one learns it before college, and almost no one can compute the convolution of a function with a Gaussian in their head. What sense does it make to say that the “vision system” is doing this kind of mathematics, whereas the actual person has no idea how to do it?
+
+I think that most of our behaviour and thoughts are controlled by our unconsciousness. I would say that we don't know how it works because it is part of unconsciousness.
+
+12)Some authors have claimed that perception and motor skills are the most important part of intelligence, and that “higher level” capacities are necessarily parasitic—simple add-ons to these underlying facilities. Certainly, most of evolution and a large part of the brain have been devoted to perception and motor skills, whereas AI has found tasks such as game playing and logical inference to be easier, in many ways, than perceiving and acting in the real world. Do you think that AI’s traditional focus on higher-level cognitive abilities is misplaced?
+
+I think we need to explore every part of intelligence. It might seems silly to use our AI knowledge to play games for example, but thanks to these research we keep making discoveries in other fields. DeepMind's researchs to build AlphaGo/AlphaZero etc... were useful in other fields like healthcare.
+
+13)Why would evolution tend to result in systems that act rationally? What goals are such systems designed to achieve?
+
+
+
+14)Is AI a science, or is it engineering? Or neither or both? Explain.
+
+In my opinion, AI is a science (AI, CS, Maths...), which can be found in engineering (Robotics...). I think that some AI doesn't need engineering to exist because it doesnt necessarily needs to be real world applications.
+
+15)“Surely computers cannot be intelligent—they can do only what their programmers tell them.” Is the latter statement true, and does it imply the former?
+
+One of the biggest counter-argument is deep learning. We don't tell a DL program how to beat someone at chess, it learns by itself. It is even more impressive is unsupervised machine learning.
+
+16)“Surely animals cannot be intelligent—they can do only what their genes tell them.” Is the latter statement true, and does it imply the former?
+
+Animals, like humans, learn while they live. Some cats are scared of other animals, some aren't. They might be scared because they had problems with other animals, this reaction could save their life. This is an example of adaptation. The former statement is also false.
+
+17)“Surely animals, humans, and computers cannot be intelligent—they can do only what their constituent atoms are told to do by the laws of physics.” Is the latter statement true, and does it imply the former?
+
+Physics is the study of matter and energy, which has nothing to do with intelligence. The former statement is also false.
+
+18)Examine the AI literature to discover whether the following tasks can currently be solved by computers:
+
+- Playing a decent game of table tennis (Ping-Pong). 
+Yes.
+- Driving in the center of Cairo, Egypt. 
+No, it is currently too hard and there is too much people in the center.
+- Driving in Victorville, California. 
+Yes it is easier than driving in the center of Cairo.
+- Buying a week’s worth of groceries at the market.
+No robot can currently move in a crowded market.
+- Buying a week’s worth of groceries on the Web. 
+Yes.
+- Playing a decent game of bridge at a competitive level. 
+Yes.
+- Discovering and proving new mathematical theorems.
+Yes.
+- Writing an intentionally funny story. 
+No it can be funny but it won't be really intentional.
+- Giving competent legal advice in a specialized area of law. 
+Yes.
+- Translating spoken English into spoken Swedish in real time. 
+Yes.
+- Performing a complex surgical operation.
+Yes robots assists surgeons.
+
+19)For the currently infeasible tasks, try to find out what the difficulties are and predict when, if ever, they will be overcome.
+
+- Driving in the center of Cairo, Egypt. 
+It will be possible once we solve complete autonomous driving. We are close to it.
+- Buying a week’s worth of groceries at the market.
+It is hard for a robot to move in a crowded market because it has to predict humans movements. We are probably close to it too.
+- Writing an intentionally funny story. 
+We don't know if an AI will one day be able to have emotions, consciousness etc... We are currently far from it.
+
+20)Various subfields of AI have held contests by defining a standard task and inviting researchers to do their best. Examples include the DARPA Grand Challenge for robotic cars, the International Planning Competition, the Robocup robotic soccer league, the TREC information retrieval event, and contests in machine translation and speech recognition. Investigate five of these contests and describe the progress made over the years. To what degree have the contests advanced the state of the art in AI? To what degree do they hurt the field by drawing energy away from new ideas?
+
+- DARPA Grand Challenge for robotic cars :
+- International Planning Competition :
+- Robocup robotic soccer league :
+- TREC information retrieval event :
+- Contests in machine translation and speech recognition :
