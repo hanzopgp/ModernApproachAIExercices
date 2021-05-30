@@ -8,14 +8,14 @@
 ModernApproachAIExercices/
 ├── exercices/
 │   	├── 1_Artificial_Intelligence/   
-│         │       └── 1_Introduction/ 
-│         │       └── 2_Intelligent_Agent/ 
-│         ├── 2_Problem-solving/ 	 
-│         ├── 3_Knowledge_reasoning_planning/ 	 
-│         ├── 4_Uncertain_knowledge_reasoning/ 	 
-│         ├── 5_Learning/ 	 
-│         ├── 6_Communicating_perceiving_acting/ 	 
-│         └── 7_Conclusions/ 	 	 
+│       │       ├── 1_Introduction/ 
+│       │       └── 2_Intelligent_Agent/ 
+│       ├── 2_Problem-solving/ 	 
+│       ├── 3_Knowledge_reasoning_planning/ 	 
+│       ├── 4_Uncertain_knowledge_reasoning/ 	 
+│       ├── 5_Learning/ 	 
+│       ├── 6_Communicating_perceiving_acting/ 	 
+│       └── 7_Conclusions/ 	 	 
 ├── README.md		          
 └── cover2.png
 </pre></code>
