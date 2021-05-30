@@ -76,7 +76,7 @@ I think we need to explore every part of intelligence. It might seems silly to u
 
 13)Why would evolution tend to result in systems that act rationally? What goals are such systems designed to achieve?
 
-
+Those systems are designed to help humans in many different ways. The fields we need help in are autonomous driving, healthcare applications... We currently prefere to keep the emotional part for the human psychologist or so.
 
 14)Is AI a science, or is it engineering? Or neither or both? Explain.
 
