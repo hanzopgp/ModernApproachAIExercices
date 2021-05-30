@@ -3,8 +3,8 @@
 <p align="center"><img src="cover2.jpg"></p>
 
 >Exercices from the book Artificial Intelligence : A Modern Approach 4th edition. I'm currently reading this book and I will be pushing the exercices in each chapter once I finish. There is 28 chapters in the book and roughly 20 exercices per chapters.
-<pre><code>
-ModernApproachAIExercices/
+
+<pre><code>ModernApproachAIExercices/
 ├── exercices/
 │   	├── 1_Artificial_Intelligence/   
 │       │       ├── 1_Introduction/ 
