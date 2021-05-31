@@ -49,16 +49,16 @@ Sensors : price, visual sensors...
 
 7)Define in your own words the following terms: agent, agent function, agent program, rationality, autonomy, reflex agent, model-based agent, goal-based agent, utility-based agent, learning agent.
 
-Agent :
-Agent function :
-Agent program :
-Rationality :
-Autonomy :
-Reflex agent :
-Model-based agent :
-Goal-based agent :
-Utility-based agent :
-Learning agent :
+Agent : An agent react with its actuators depending its sensors
+Agent function : The agent function is the process trying to maximize the agent performance
+Agent program : The agent program implements the agent function
+Rationality : A rational agent has to do the right thing
+Autonomy : An autonomous agent doesn't need controls from the outside to work
+Reflex agent : A reflex agent reacts depending a signal from its sensors
+Model-based agent : A model-based agent reacts depending a signal from its sensors but it also has a representation of the world state
+Goal-based agent : A goal-based agent can make a decision depending its goal when the signal from its sensors is ambiguous
+Utility-based agent : An utility-based agent does have a goal, but the goal is not a boolean, it can be a value which adds flexibility.
+Learning agent : A learning agent update its performance computation and its component continuously
 
 8)This exercise explores the differences between agent functions and agent programs.
 1. Can there be more than one agent program that implements a given agent function? Give an example, or show why one is not possible.
