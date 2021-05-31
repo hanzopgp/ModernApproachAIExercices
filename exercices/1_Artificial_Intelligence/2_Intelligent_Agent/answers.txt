@@ -72,35 +72,56 @@ FALSE
 2^n
 5. Suppose we keep the agent program fixed but speed up the machine by a factor of two. Does that change the agent function?
 FALSE
+
 9)Write pseudocode agent programs for the goal-based and utility-based agents.
 
+Goal-based agent :
+
+??????????????????????????????????????????
+
+Utility-based agent :
+
+??????????????????????????????????????????
 
 10)Consider a simple thermostat that turns on a furnace when the temperature is at least 3 degrees below the setting, and turns off a furnace when the temperature is at least 3 degrees above the setting. Is a thermostat an instance of a simple reflex agent, a model-based reflex agent, or a goal-based agent?
 
+The thermostat is a simple reflex agent.
 
 11)Implement a performance-measuring environment simulator for the vacuum-cleaner world depicted in Figure 2.8 and specified on page . Your implementation should be modular so that the sensors, actuators, and environment characteristics (size, shape, dirt placement, etc.) can be changed easily. (Note: for some choices of programming language and operating system there are already implementations in the online code repository.)
 
+??????????????????????????????????????????
 
 12)Implement a simple reflex agent for the vacuum environment in Exercise 2.10. Run the environment with this agent for all possible initial dirt configurations and agent locations. Record the performance score for each configuration and the overall average score.
 
+??????????????????????????????????????????
 
 13)Consider a modified version of the vacuum environment in Exercise 2.10, in which the agent is penalized one point for each movement.
-1. Can a simple reflex agent be perfectly rational for this environment? Explain.
-2. What about a reflex agent with state? Design such an agent.
-3. How do your answers to 1 and 2 change if the agent’s percepts give it the clean/dirty status of every square in the environment?
 
+1. Can a simple reflex agent be perfectly rational for this environment? Explain.
+It's impossible to implement such thing with a simple reflex agent because the agent might just stop moving.
+2. What about a reflex agent with state? Design such an agent.
+??????????????????????????????????????????
+3. How do your answers to 1 and 2 change if the agent’s percepts give it the clean/dirty status of every square in the environment?
+I would use search algorithm to find optimal path in the environment.
 
 14)Consider a modified version of the vacuum environment in Exercise 2.10, in which the geography of the environment—its extent, boundaries, and obstacles—is unknown, as is the initial dirt configuration. (The agent can go Up and Down as well as Left and Right.)
-1. Can a simple reflex agent be perfectly rational for this environment? Explain.
-2. Can a simple reflex agent with a randomized agent function outperform a simple reflex agent? Design such an agent and measure its performance on several environments.
-3. Can you design an environment in which your randomized agent will perform poorly? Show your results.
-4. Can a reflex agent with state outperform a simple reflex agent? Design such an agent and measure its performance on several environments. Can you design a rational agent of this type?
 
+1. Can a simple reflex agent be perfectly rational for this environment? Explain.
+I think it could be if using randomized movements.
+2. Can a simple reflex agent with a randomized agent function outperform a simple reflex agent? Design such an agent and measure its performance on several environments.
+Yes it can.
+3. Can you design an environment in which your randomized agent will perform poorly? Show your results.
+Yes if the environment is a huge row for example. The agent performs better in a square.
+4. Can a reflex agent with state outperform a simple reflex agent? Design such an agent and measure its performance on several environments. Can you design a rational agent of this type?
+??????????????????????????????????????????
 
 15)Repeat Exercise 2.13 for the case in which the location sensor is replaced with a “bump” sensor that detects the agent’s attempts to move into an obstacle or to cross the boundaries of the environment. Suppose the bump sensor stops working; how should the agent behave?
 
+??????????????????????????????????????????
 
 16)The vacuum environments in the preceding exercises have all been deterministic. Discuss possible agent programs for each of the following stochastic versions:
-1. Murphy’s law: twenty-five percent of the time, the Suck action fails to clean the floor if it is dirty and deposits dirt onto the floor if the floor is clean. How is your agent program affected if the dirt sensor gives the wrong answer 10% of the time?
-2. Small children: At each time step, each clean square has a 10% chance of becoming dirty. Can you come up with a rational agent design for this case?
 
+1. Murphy’s law: twenty-five percent of the time, the Suck action fails to clean the floor if it is dirty and deposits dirt onto the floor if the floor is clean. How is your agent program affected if the dirt sensor gives the wrong answer 10% of the time?
+??????????????????????????????????????????
+2. Small children: At each time step, each clean square has a 10% chance of becoming dirty. Can you come up with a rational agent design for this case?
+??????????????????????????????????????????
