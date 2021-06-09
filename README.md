@@ -10,6 +10,10 @@
 │       │       ├── 1_Introduction/ 
 │       │       └── 2_Intelligent_Agent/ 
 │       ├── 2_Problem-solving/ 	 
+│       │       ├── 3_Solving_Problems_By_Searching/ 
+│       │       ├── 4_Beyond_Classical_Search/ 
+│       │       ├── 5_Adversarial_Search/ 
+│       │       └── 6_Constraint_Satisfaction_Problems/ 
 │       ├── 3_Knowledge_reasoning_planning/ 	 
 │       ├── 4_Uncertain_knowledge_reasoning/ 	 
 │       ├── 5_Learning/ 	 
