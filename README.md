@@ -32,8 +32,11 @@
 # Book's chapter
 
 Part I: Artificial Intelligence
+
 Chapter 1 - Introduction ... 1 <--- Done
+
 Chapter 2 - Intelligent Agents ... 36 <--- Done
+
 
 Part II: Problem-solving
 Chapter 3 - Solving Problems by Searching ... 63 <--- Done
