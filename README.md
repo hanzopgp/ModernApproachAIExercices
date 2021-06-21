@@ -17,7 +17,13 @@
 │       ├── 3_Knowledge_reasoning_planning/ 	 
 │       ├── 4_Uncertain_knowledge_reasoning/ 	 
 │       ├── 5_Learning/ 	 
-│       ├── 6_Communicating_perceiving_acting/ 	 
+│       │       ├── 18_Learning_From_Examples/ 
+│       │       ├── 19_Knowledge_In_Learning/ 
+│       │       ├── 20_Learning_Probabilistic_Models/ 
+│       │       └── 21_Reinforcement_Learning	 
+│       ├── 5_Learning/ 	 
+│       │       ├── 22_Natural_Language_Processing/ 
+│       │       ├── 23_Natural_Language_For_Communication/ 	 
 │       └── 7_Conclusions/ 	 	 
 ├── README.md		          
 └── cover2.png
