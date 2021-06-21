@@ -31,50 +31,47 @@
 
 # Book's chapter
 
-Part I: Artificial Intelligence
+Part I: Artificial Intelligence<br>
+Chapter 1 - Introduction ... 1 <--- Done<br>
+Chapter 2 - Intelligent Agents ... 36 <--- Done<br>
 
-Chapter 1 - Introduction ... 1 <--- Done
+Part II: Problem-solving<br>
+Chapter 3 - Solving Problems by Searching ... 63 <--- Done<br>
+Chapter 4 - Search in Complex Environments ... 110 <--- Done<br>
+Chapter 5 - Adversarial Search and Games ... 146<br>
+Chapter 6 - Constraint Satisfaction Problems ... 180<br>
 
-Chapter 2 - Intelligent Agents ... 36 <--- Done
+Part III: Knowledge, reasoning, and planning<br>
+Chapter 7 - Logical Agents ... 208<br>
+Chapter 8 - First-Order Logic ... 251<br>
+Chapter 9 - Inference in First-Order Logic ... 280<br>
+Chapter 10 - Knowledge Representation ... 314<br>
+Chapter 11 - Automated Planning ... 344<br>
 
+Part IV: Uncertain knowledge and reasoning<br>
+Chapter 12 - Quantifying Uncertainty ... 385<br>
+Chapter 13 - Probabilistic Reasoning ... 412<br>
+Chapter 14 - Probabilistic Reasoning over Time ... 461<br>
+Chapter 15 - Probabilistic Programming ... 500<br>
+Chapter 16 - Making Simple Decisions ... 528<br>
+Chapter 17 - Making Complex Decisions ... 562<br>
+Chapter 18 - Multiagent Decision Making ... 599<br>
 
-Part II: Problem-solving
-Chapter 3 - Solving Problems by Searching ... 63 <--- Done
-Chapter 4 - Search in Complex Environments ... 110 <--- Done
-Chapter 5 - Adversarial Search and Games ... 146
-Chapter 6 - Constraint Satisfaction Problems ... 180
+Part V: Machine Learning<br>
+Chapter 19 - Learning from Examples ... 651<br>
+Chapter 20 - Learning Probabilistic Models ... 721<br>
+Chapter 21 - Deep Learning ... 750<br>
+Chapter 22 - Reinforcement Learning ... 789<br>
 
-Part III: Knowledge, reasoning, and planning
-Chapter 7 - Logical Agents ... 208
-Chapter 8 - First-Order Logic ... 251
-Chapter 9 - Inference in First-Order Logic ... 280
-Chapter 10 - Knowledge Representation ... 314
-Chapter 11 - Automated Planning ... 344
+Part VI: Communicating, perceiving, and acting<br>
+Chapter 23 - Natural Language Processing ... 823<br>
+Chapter 24 - Deep Learning for Natural Language Processing ... 856<br>
+Chapter 25 - Computer Vision ... 881<br>
+Chapter 26 - Robotics ... 925<br>
 
-Part IV: Uncertain knowledge and reasoning
-Chapter 12 - Quantifying Uncertainty ... 385
-Chapter 13 - Probabilistic Reasoning ... 412
-Chapter 14 - Probabilistic Reasoning over Time ... 461
-Chapter 15 - Probabilistic Programming ... 500
-Chapter 16 - Making Simple Decisions ... 528
-Chapter 17 - Making Complex Decisions ... 562
-Chapter 18 - Multiagent Decision Making ... 599
-
-Part V: Machine Learning
-Chapter 19 - Learning from Examples ... 651
-Chapter 20 - Learning Probabilistic Models ... 721
-Chapter 21 - Deep Learning ... 750
-Chapter 22 - Reinforcement Learning ... 789
-
-Part VI: Communicating, perceiving, and acting
-Chapter 23 - Natural Language Processing ... 823
-Chapter 24 - Deep Learning for Natural Language Processing ... 856
-Chapter 25 - Computer Vision ... 881
-Chapter 26 - Robotics ... 925
-
-Part VII: Conclusions
-Chapter 27 - Philosophy, Ethics, and Safety of AI ... 981
-Chapter 28 - The Future of AI ... 1012
+Part VII: Conclusions<br>
+Chapter 27 - Philosophy, Ethics, and Safety of AI ... 981<br>
+Chapter 28 - The Future of AI ... 1012<br>
 
 # Links
 
