@@ -43,3 +43,41 @@ Reinforcement learning is often a good solution for games.
 
 4)We never test the same attribute twice along one path in a decision tree. Why not?
 
+A decision tree must be deterministic in order to work.
+
+5)Suppose we generate a training set from a decision tree and then apply decision-tree learning to that training set. Is it the case that the learning algorithm will eventually return the correct tree as the training-set size goes to infinity? Why or why not?
+
+The more iteration, the more precise the learned decision tree will be.
+
+6)In the recursive construction of decision trees, it sometimes happens that a mixed set of positive and negative examples remains at a leaf node, even after all the attributes have been used. Suppose that we have p positive examples and n negative examples.
+1. Show that the solution used by DECISION-TREE-LEARNING, which picks the majority classification, minimizes the absolute error over the set of examples at the leaf.
+2. Show that the class probability p/(p+n) minimizes the sum of squared errors.
+
+???????????????????????
+
+7)Suppose that an attribute splits the set of examples E into subsets Ek and that each subset has pk positive examples and nk negative examples. Show that the attribute has strictly positive information gain unless the ratio pk/(pk+nk) is the same for all k.
+
+The only way to get 0 information gain is if the ratio pk/(pk+nk) is the same for all k because the equations shows the difference between all k.
+
+8)Use the algorithm in Figure 18.5 (page ) to learn a decision tree for these data. Show the computations made to determine the attribute to split at each node. (Table on website)
+
+A1 = 0 -> 0
+A1 = 1 -> 0 || 1
+A2 = 0 -> 0
+A2 = 1 -> 0 || 1
+A3 = 0 -> 0 || 1
+A3 = 1 -> 0 || 1
+A3 is the last node
+A2 is the second and A1 the first one
+
+			  A1
+		    0/	1\
+		    0	  A2
+			   0/  1\
+			   0    A3
+			   	  0/   1\
+			   	  0      1
+
+This tree covers the 5 examples x1, x2 ... x5
+
+9)Construct a data set (set of examples with attributes and classifications) that would cause the decision-tree learning algorithm to find a non-minimal-sized tree. Show the tree constructed by the algorithm and the minimal-sized tree that you can generate by hand.
