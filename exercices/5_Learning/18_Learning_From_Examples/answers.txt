@@ -2,4 +2,28 @@ https://aimacode.github.io/aima-exercises/concept-learning-exercises/
 
 1) Consider the problem faced by an infant learning to speak and understand a language. Explain how this process fits into the general learning model. Describe the percepts and actions of the infant, and the types of learning the infant must do. Describe the subfunctions the infant is trying to learn in terms of inputs and outputs, and available example data.
 
+Percepts : his ears to listen and his eyes to read.
+Actions : listen, read, think.
+Subfunctions : 
+- Listen to some sentences, and watch what happens next. 
+- Listen to people talking after something happen.
+- Remember words which work well together.
+- React to someone talking to train.
+- Imitating someone who understands a language.
+- ...
+
 2)Repeat Exercise 18.1 for the case of learning to play tennis (or some other sport with which you are familiar). Is this supervised learning or reinforcement learning?
+
+Percepts : eyes, ears, touch.
+Actions : hit the ball, move...
+Subfunctions :
+- Watch how the ball moves.
+- Watch how the player reacts.
+- Hit the ball and feel the reaction.
+- Watch how the ball bounce.
+- Understand how to win the game
+- ...
+Reinforcement learning is often a good solution for games.
+
+3) Draw a decision tree for the problem of deciding whether to move forward at a road intersection, given that the light has just turned green.
+
