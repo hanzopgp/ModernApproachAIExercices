@@ -23,7 +23,7 @@
 │       │       └── 21_Reinforcement_Learning	 
 │       ├── 5_Learning/ 	 
 │       │       ├── 22_Natural_Language_Processing/ 
-│       │       ├── 23_Natural_Language_For_Communication/ 	 
+│       │       └── 23_Natural_Language_For_Communication/ 	 
 │       └── 7_Conclusions/ 	 	 
 ├── README.md		          
 └── cover2.png
