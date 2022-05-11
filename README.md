@@ -32,12 +32,12 @@
 # Book's chapter
 
 Part I: Artificial Intelligence<br>
-Chapter 1 - Introduction ... 1 <--- Done<br>
-Chapter 2 - Intelligent Agents ... 36 <--- Done<br>
+Chapter 1 - Introduction ... 1
+Chapter 2 - Intelligent Agents ... 36
 
 Part II: Problem-solving<br>
-Chapter 3 - Solving Problems by Searching ... 63 <--- Done<br>
-Chapter 4 - Search in Complex Environments ... 110 <--- Done<br>
+Chapter 3 - Solving Problems by Searching ... 63
+Chapter 4 - Search in Complex Environments ... 110
 Chapter 5 - Adversarial Search and Games ... 146<br>
 Chapter 6 - Constraint Satisfaction Problems ... 180<br>
 
