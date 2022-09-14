@@ -21,12 +21,11 @@
 │       │       ├── 19_Knowledge_In_Learning/ 
 │       │       ├── 20_Learning_Probabilistic_Models/ 
 │       │       └── 21_Reinforcement_Learning	 
-│       ├── 5_Learning/ 	 
+│       ├── 6_Communicating_perceiving_and_acting/ 	 
 │       │       ├── 22_Natural_Language_Processing/ 
 │       │       └── 23_Natural_Language_For_Communication/ 	 
 │       └── 7_Conclusions/ 	 	 
-├── README.md		          
-└── cover2.png
+└── README.md		          
 </pre></code>
 
 # Book's chapter
